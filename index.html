@@ -64,50 +64,32 @@
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
-    <nav class="navbar navbar-expand-lg navbar-dark custom-bg ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Sai Kumar Vallapu</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
-	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-
-	  <section id="home-section" class="hero custom-bg">
-		  <div class="home-slider owl-carousel">
-	      <div class="slider-item">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_3.jpeg);">
-	          		<div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text pt-5 mt-md-2 mt-sm-5" style="margin-top: 350px;">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Sai Kumar Vallapu</span></h1>
-			            <h2 class="mb-4">A Computer Science Graduate</h2>
-			            <p class="d-flex flex-wrap">
-                      <a href="#contact-section" class="btn btn-custom py-3 px-4 mr-2 mb-2">Contact Me</a>
-                      <a href="#projects-section" class="btn btn-outline-light py-3 px-4 mb-2">My Projects</a>
-                    </p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-	    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-bg shadow-sm py-3 mb-4 rounded">
+      <div class="container">
+        <a class="navbar-brand font-weight-bold" href="#home-section">Sai Kumar Vallapu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills-section">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects-section">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certifications-section">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact-section">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home-section" class="ftco-section d-flex align-items-center justify-content-center" style="min-height: 60vh;">
+      <div class="container text-center">
+        <img src="images/bg_3.jpeg" alt="Sai Kumar Vallapu" class="hero-img mb-4" style="width: 260px; height: 260px; object-fit: cover; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 2px 12px rgba(31,38,135,0.15); background: #e9ecef;">
+        <h1 class="display-3 font-weight-bold mb-3 custom-text">Sai Kumar Vallapu</h1>
+        <h2 class="mb-4 section-title">Python Developer & Web Enthusiast</h2>
+        <p class="lead mb-4">I build efficient, scalable applications and love solving complex problems.</p>
+        <a href="#projects-section" class="btn btn-custom btn-lg mr-2">View Projects</a>
+        <a href="#contact-section" class="btn btn-outline-light btn-lg">Contact Me</a>
+      </div>
     </section>
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
