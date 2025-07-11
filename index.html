@@ -311,51 +311,108 @@
     </section>
 
     <section class="ftco-section" id="projects-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
-          	<h1 class="big big-2 custom-text">Projects</h1>
+            <h1 class="big big-2 custom-text">Projects</h1>
             <h2 class="mb-4 section-title">My Projects</h2>
             <p>Showcasing my technical projects and achievements</p>
           </div>
         </div>
-    		<div class="row">
-    			<div class="col-md-6 col-lg-4 mb-4">
-    				<div class="project-wrap ftco-animate h-100 custom-shadow custom-hover">
-    					<div class="text p-4">
-    						<h3>University Management System</h3>
-    						<span class="position">Python (OOP), customtkinter</span>
-    						<p class="mt-4">• Designed a GUI-based desktop application to manage student and faculty records using Object-Oriented Programming principles.<br>
-    						• Implemented features such as add, update, delete, and search for both students and faculty, with real-time statistics and department-wise summaries.<br>
-    						• Enabled data export in CSV and JSON formats and integrated search filters for efficient data retrieval.<br>
-    						• Used customtkinter for a modern, responsive UI and applied OOP concepts like inheritance and encapsulation to ensure clean and maintainable code architecture.</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-4 mb-4">
-    				<div class="project-wrap ftco-animate h-100 custom-shadow custom-hover">
-    					<div class="text p-4">
-    						<h3>Notes Management System</h3>
-    						<span class="position">Flask, MySQL, HTML/CSS</span>
-    						<p class="mt-4">• Developed a web application where users can securely create, edit, delete, and view their notes, with login functionality and OTP verification.<br>
-    						• Implemented password reset functionality using email-based tokens for secure password recovery.<br>
-    						• Integrated Flask-Mail for email notifications, bcrypt for password hashing, and session management to ensure secure and personalized user experiences.</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-4 mb-4">
-    				<div class="project-wrap ftco-animate h-100 custom-shadow custom-hover">
-    					<div class="text p-4">
-    						<h3>Doctor's Appointment System</h3>
-    						<span class="position">Flask, MySQL, Bootstrap</span>
-    						<p class="mt-4">• Developed a secure web application where patients can register, log in, and book/cancel appointments with doctors.<br>
-    						• Created an admin dashboard to manage doctor profiles, view/delete appointments, and prevent double bookings.<br>
-    						• Used Flask for backend logic, MySQL for database management, Bootstrap for responsive design, and bcrypt for password security.</p>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
+        <div class="row">
+          <!-- Project 1 Card -->
+          <div class="col-md-4 mb-4 d-flex align-items-stretch">
+            <div class="card custom-shadow w-100">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">University Management System</h5>
+                <p class="card-text small mb-2">A desktop app to manage student and faculty records with modern UI.</p>
+                <button type="button" class="btn btn-custom mt-3" data-toggle="modal" data-target="#projectModal1">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 Card -->
+          <div class="col-md-4 mb-4 d-flex align-items-stretch">
+            <div class="card custom-shadow w-100">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">Notes Management System</h5>
+                <p class="card-text small mb-2">A secure web app for creating, editing, and managing personal notes.</p>
+                <button type="button" class="btn btn-custom mt-3" data-toggle="modal" data-target="#projectModal2">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 Card -->
+          <div class="col-md-4 mb-4 d-flex align-items-stretch">
+            <div class="card custom-shadow w-100">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">Doctor's Appointment System</h5>
+                <p class="card-text small mb-2">A web platform for booking and managing doctor appointments online.</p>
+                <button type="button" class="btn btn-custom mt-3" data-toggle="modal" data-target="#projectModal3">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 1 Modal -->
+        <div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="projectModal1Label">University Management System</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6 class="text-muted">Python (OOP), customtkinter</h6>
+                <p>• Designed a GUI-based desktop application to manage student and faculty records using Object-Oriented Programming principles.<br>
+                • Implemented features such as add, update, delete, and search for both students and faculty, with real-time statistics and department-wise summaries.<br>
+                • Enabled data export in CSV and JSON formats and integrated search filters for efficient data retrieval.<br>
+                • Used customtkinter for a modern, responsive UI and applied OOP concepts like inheritance and encapsulation to ensure clean and maintainable code architecture.</p>
+                <a href="https://github.com/saikumarvallapu2001/University-Management-System" target="_blank" class="btn btn-custom">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 Modal -->
+        <div class="modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-labelledby="projectModal2Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="projectModal2Label">Notes Management System</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6 class="text-muted">Flask, MySQL, HTML/CSS</h6>
+                <p>• Developed a web application where users can securely create, edit, delete, and view their notes, with login functionality and OTP verification.<br>
+                • Implemented password reset functionality using email-based tokens for secure password recovery.<br>
+                • Integrated Flask-Mail for email notifications, bcrypt for password hashing, and session management to ensure secure and personalized user experiences.</p>
+                <a href="https://github.com/saikumarvallapu2001/flask-projects/tree/main/notes_management" target="_blank" class="btn btn-custom">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 Modal -->
+        <div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-labelledby="projectModal3Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="projectModal3Label">Doctor's Appointment System</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6 class="text-muted">Flask, MySQL, Bootstrap</h6>
+                <p>• Developed a secure web application where patients can register, log in, and book/cancel appointments with doctors.<br>
+                • Created an admin dashboard to manage doctor profiles, view/delete appointments, and prevent double bookings.<br>
+                • Used Flask for backend logic, MySQL for database management, Bootstrap for responsive design, and bcrypt for password security.</p>
+                <a href="https://github.com/saikumarvallapu2001/Doctor-Appointment-System" target="_blank" class="btn btn-custom">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="ftco-section" id="certifications-section">
